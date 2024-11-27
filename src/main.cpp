@@ -7,7 +7,7 @@
 #include "AsteroidHandler.h"
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Galaga");
+    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Astroblast");
 
     std::unique_ptr<TravelingBackground> background = std::make_unique<TravelingBackground>(150); 
     std::unique_ptr<Spaceship> spaceship = std::make_unique<Spaceship>("../textures/spaceship.png"); 
