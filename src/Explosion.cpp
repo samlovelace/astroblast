@@ -3,7 +3,7 @@
 Explosion::Explosion(const sf::Vector2f& position, int frameWidth, int frameHeight, int numFrames, float frameDuration)
     : frameWidth(frameWidth), frameHeight(frameHeight), numFrames(numFrames), frameDuration(frameDuration), currentFrame(0), elapsedTime(0.f) 
 {
-    if(!mTexture.loadFromFile("../textures/explode.png"))
+    if(!mTexture.loadFromFile("../textures/explosion.png"))
     {
         printf("no able to load explode.png\n");
     }

@@ -1,0 +1,21 @@
+{
+    "textures": [
+      {
+        "name": "spaceship",
+        "path": "../textures/spaceship.png"
+      },
+      {
+        "name": "asteroids",
+        "path": "../textures/asteroids.png"
+      },
+      {
+        "name": "laser",
+        "path": "../textures/laser.png"
+      },
+      {
+        "name": "explosion",
+        "path": "../textures/explosion.png"
+      }
+    ]
+  }
+  
